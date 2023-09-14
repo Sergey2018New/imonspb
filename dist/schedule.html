@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
-    <title>Новости</title>
+    <title>Расписание богослужений</title>
     <meta name="description" content="Описание страницы">
     <link rel="stylesheet" href="assets/css/style.07b25802.css" />
     <script type="module" src="assets/js/main.80408ed4.js"></script>
@@ -100,164 +100,139 @@
                                 <a href="/" class="breadcrumbs__link"><span>Главная</span></a>
                             </li>
 
-                            <li class="breadcrumbs__item" aria-current="page"><span>Новости</span></li>
+                            <li class="breadcrumbs__item" aria-current="page"><span>Расписание богослужений</span></li>
                         </ol>
                     </nav>
                 </div>
             </div>
-            <div class="p-section p-news">
-                <div class="container">
-                    <h1 class="p-news__title page-title">Новости</h1>
-                    <div class="p-news__heading">
-                        <div class="p-news__topics">
-                            <div class="p-news__topics-title">Темы</div>
-                            <div class="tab-menu p-news__topics-menu">
-                                <div class="tab-menu__list">
+            <div class="p-section p-schedule">
+                <div class="container container_lg">
+                    <div class="p-schedule__wrapper">
+                        <h1 class="p-schedule__title page-title">Расписание</h1>
+                    </div>
+                    <div class="p-schedule__tabs tabs" data-tabs>
+                        <div class="tab-menu tab-menu_second p-schedule__tab-menu" data-tabs-menu="">
+                            <div class="tab-menu__list">
 
-                                    <a href="" class="tab-menu__item">Все</a><a href="" class="tab-menu__item">Проповедь</a><a href="" class="tab-menu__item">Фоторепортаж</a><a href="" class="tab-menu__item">Публикации</a>
-                                </div>
+                                <button class="tab-menu__item is-active" data-tabs-item="tab_1">
+                                    <span>Расписание священнослужителей на&nbsp;седмицу</span>
+                                </button><button class="tab-menu__item" data-tabs-item="tab_2">
+                                    <span>Расписание богослужений на&nbsp;седмицу</span>
+                                </button>
                             </div>
                         </div>
-                        <div class="p-news__sorting">
-                            <div class="p-news__sorting-title">Сортировать по:</div>
-                            <div class="ui-dropdown ui-dropdown_menu is-placeholder p-news__sorting-dropdown" data-dropdown="menu">
-                                <button class="ui-dropdown__button" type="button" aria-haspopup="true" data-dropdown-button aria-expanded="false">
-                                    <span class="ui-dropdown__button-text">
-                                        По дате
-                                    </span>
-                                    <span class="ui-dropdown__button-icon-box"><span class="ui-dropdown__button-icon"></span></span>
-                                </button>
+                        <div class="tabs__content">
+                            <div class="tabs__pane is-active" data-tabs-pane="tab_1">
+                                <div class="p-schedule__row">
+                                    <div class="p-schedule__content">
+                                        <div class="p-schedule__image-wrapper">
+                                            <img src="assets/img/schedule_2.png" width="670" height="911" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="p-schedule__sidebar">
+                                        <div class="p-schedule__info p-schedule__info_box">
+                                            <p>Расписание служб и священнослужителей можно также смотреть на нашей странице:</p>
+                                            <div class="p-schedule__social">
+                                                <a href="" class="p-schedule__social-item p-schedule__social-item_vk">
+                                                    <span>Вконтакте</span>
+                                                    <svg width="22" height="13" viewBox="0 0 22 13" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.6154 0.833407C20.7613 0.353407 20.6154 0 19.9165 0H17.6088C17.0215 0 16.7508 0.305055 16.604 0.641758C16.604 0.641758 15.4303 3.45143 13.7679 5.27648C13.2299 5.80571 12.9855 5.97363 12.6919 5.97363C12.5451 5.97363 12.3244 5.80571 12.3244 5.32484V0.833407C12.3244 0.256703 12.1626 0 11.6738 0H8.04484C7.67824 0 7.45758 0.267253 7.45758 0.521319C7.45758 1.06725 8.28923 1.19385 8.37451 2.73055V6.06945C8.37451 6.80176 8.24 6.9345 7.94637 6.9345C7.16396 6.9345 5.26066 4.11165 4.13099 0.881758C3.91209 0.253187 3.69055 0 3.10066 0H0.791209C0.131868 0 0 0.305055 0 0.641758C0 1.24132 0.782417 4.21978 3.64396 8.15912C5.55165 10.8492 8.23736 12.3077 10.684 12.3077C12.1512 12.3077 12.3323 11.9842 12.3323 11.4259V9.39253C12.3323 8.74462 12.4712 8.61539 12.9363 8.61539C13.2791 8.61539 13.8655 8.78417 15.2352 10.0809C16.8 11.6185 17.0576 12.3077 17.9385 12.3077H20.2462C20.9055 12.3077 21.236 11.9842 21.0462 11.3442C20.8369 10.7077 20.0897 9.78374 19.0989 8.68747C18.5609 8.0633 17.7538 7.39077 17.5086 7.05407C17.1666 6.62242 17.2642 6.42989 17.5086 6.04571C17.5086 6.04571 20.3226 2.15473 20.6154 0.833407Z"></path>
+                                                    </svg>
+                                                </a>
+                                                <a href="" class="p-schedule__social-item p-schedule__social-item_telegram">
+                                                    <span>Телеграм канал</span>
+                                                    <svg width="22" height="18" viewBox="0 0 22 18" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1.49285 7.74903C7.3241 5.20903 11.2116 3.53434 13.1554 2.72527C18.7116 0.414962 19.8647 0.0137122 20.6178 0.000118445C20.7835 -0.00253781 21.1522 0.0383994 21.3929 0.232931C21.5929 0.396993 21.6491 0.618869 21.6772 0.77465C21.7022 0.930275 21.7366 1.28496 21.7085 1.56184C21.4085 4.72434 20.1054 12.3987 19.4429 15.9409C19.1647 17.4396 18.6116 17.9421 18.0772 17.9912C16.9147 18.0981 16.0335 17.2237 14.9085 16.4865C13.1491 15.3325 12.1554 14.6143 10.446 13.4884C8.47098 12.1872 9.75223 11.4718 10.8772 10.3031C11.171 9.99715 16.2897 5.34246 16.3866 4.92027C16.3991 4.86746 16.4116 4.67059 16.2929 4.56684C16.1772 4.46277 16.0054 4.4984 15.8804 4.52653C15.7022 4.56652 12.8929 6.42528 7.44285 10.1025C6.64598 10.6506 5.9241 10.9178 5.2741 10.9037C4.5616 10.8884 3.1866 10.5 2.16473 10.1681C0.914727 9.7609 -0.0821487 9.54559 0.00535129 8.85402C0.0491013 8.49403 0.545976 8.12559 1.49285 7.74903Z"></path>
+                                                    </svg>
 
-                                <div class="ui-dropdown__popup" data-dropdown-popup aria-hidden="true">
-                                    <div class="ui-dropdown__scroll" data-dropdown-scroll>
-                                        <div class="ui-dropdown__menu">
-                                            <a href="" class="ui-dropdown__menu-link">По дате</a><a href="" class="ui-dropdown__menu-link">По названию</a><a href="" class="ui-dropdown__menu-link">По алфавиту</a>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="tabs__pane" data-tabs-pane="tab_2">
+                                <div class="p-schedule__info p-schedule__info_center">
+                                    <p>Исповедь — ежедневно в 8.30 и по субботам в 17.00</p>
+                                </div>
+                                <div class="p-schedule__image-wrapper">
+                                    <img src="assets/img/schedule_1.png" width="724" height="1024" alt="">
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
-                    <div class="p-news__items">
-                        <div class="article-item">
-                            <div class="article-item__image-box">
-                                <a href="" class="article-item__image-link" tabindex="-1"><img class="article-item__image lazy" data-src="assets/img/news/1.jpg" width="314" height="200" alt=""></a>
-                            </div>
-                            <div class="article-item__content">
-                                <div class="article-item__head">
-                                    <div class="article-item__date">22.06.2023</div>
-                                    <div class="article-item__category">
-                                        <a href="" class="article-item__category-link">Проповедь</a>
-                                    </div>
-                                </div>
-                                <div class="article-item__title">
-                                    <a href="" class="article-item__title-link">&laquo;Такая верность и&nbsp;сейчас нужна.&raquo; Проповедь святейшего Патрирха Кирилла в&nbsp;Неделю Жен-Мироносиц</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="article-item">
-                            <div class="article-item__image-box">
-                                <a href="" class="article-item__image-link" tabindex="-1"><img class="article-item__image lazy" data-src="assets/img/news/2.jpg" width="314" height="200" alt=""></a>
-                            </div>
-                            <div class="article-item__content">
-                                <div class="article-item__head">
-                                    <div class="article-item__date">22.06.2023</div>
-                                    <div class="article-item__category">
-                                        <a href="" class="article-item__category-link">Фоторепортаж</a>
-                                    </div>
-                                </div>
-                                <div class="article-item__title">
-                                    <a href="" class="article-item__title-link">13&nbsp;июля&nbsp;&mdash; престольный праздник Иоанновского монастыря. Фоторепортаж с&nbsp;крестного хода.</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="article-item">
-                            <div class="article-item__image-box">
-                                <a href="" class="article-item__image-link" tabindex="-1"><img class="article-item__image lazy" data-src="assets/img/news/3.jpg" width="314" height="200" alt=""></a>
-                            </div>
-                            <div class="article-item__content">
-                                <div class="article-item__head">
-                                    <div class="article-item__date">22.06.2023</div>
-                                    <div class="article-item__category">
-                                        <a href="" class="article-item__category-link">Проповедь</a>
-                                    </div>
-                                </div>
-                                <div class="article-item__title">
-                                    <a href="" class="article-item__title-link">&laquo;Духовный и&nbsp;жизненный подвиг защитников веры и&nbsp;Иоанновского монастыря&raquo;.</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="article-item">
-                            <div class="article-item__image-box">
-                                <a href="" class="article-item__image-link" tabindex="-1"><img class="article-item__image lazy" data-src="assets/img/news/4.jpg" width="314" height="200" alt=""></a>
-                            </div>
-                            <div class="article-item__content">
-                                <div class="article-item__head">
-                                    <div class="article-item__date">22.06.2023</div>
-                                    <div class="article-item__category">
-                                        <a href="" class="article-item__category-link">Фоторепортаж</a>
-                                    </div>
-                                </div>
-                                <div class="article-item__title">
-                                    <a href="" class="article-item__title-link">Слово о&nbsp;том, от&nbsp;чего зависит успех в&nbsp;брани и&nbsp;победа, или поражение</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="article-item">
-                            <div class="article-item__image-box">
-                                <a href="" class="article-item__image-link" tabindex="-1"><img class="article-item__image lazy" data-src="assets/img/news/5.jpg" width="314" height="200" alt=""></a>
-                            </div>
-                            <div class="article-item__content">
-                                <div class="article-item__head">
-                                    <div class="article-item__date">22.06.2023</div>
-                                    <div class="article-item__category">
-                                        <a href="" class="article-item__category-link">Проповедь</a>
-                                    </div>
-                                </div>
-                                <div class="article-item__title">
-                                    <a href="" class="article-item__title-link">15&nbsp;июня 2023&nbsp;года, ко&nbsp;Дню прославления праведного Иоанна Кронштадтского в&nbsp;лике святых Русской Православной Церковью</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="article-item">
-                            <div class="article-item__image-box">
-                                <a href="" class="article-item__image-link" tabindex="-1"><img class="article-item__image lazy" data-src="assets/img/news/6.jpg" width="314" height="200" alt=""></a>
-                            </div>
-                            <div class="article-item__content">
-                                <div class="article-item__head">
-                                    <div class="article-item__date">22.06.2023</div>
-                                    <div class="article-item__category">
-                                        <a href="" class="article-item__category-link">Фоторепортаж</a>
-                                    </div>
-                                </div>
-                                <div class="article-item__title">
-                                    <a href="" class="article-item__title-link">Проповедь Святейшего Патриарха Московского и&nbsp;всея Руси Кирилла после Литургии в&nbsp;Иоанновском монастыре</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pagination p-news__pagination">
-                        <a href="" class="pagination__nav pagination__nav_prev">
-                            <svg class="pagination__nav-icon" width="10" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8.53578 17.4849L0.0507812 8.99986L8.53578 0.514862L9.95078 1.92886L2.87878 8.99986L9.95078 16.0709L8.53578 17.4849Z"></path>
-                            </svg>
-                        </a>
-                        <div class="pagination__list">
-                            <a class="pagination__link is-active">1</a>
-                            <a href="" class="pagination__link">2</a>
-                            <a href="" class="pagination__link">3</a>
-                            <a href="" class="pagination__link">4</a>
-                            <div class="pagination__link pagination__link_ellipsis">...</div>
-                            <a href="" class="pagination__link">32</a>
-                        </div>
-                        <a href="" class="pagination__nav pagination__nav_next">
-                            <svg class="pagination__nav-icon" width="10" height="18" viewBox="0 0 10 18" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.46422 17.4849L9.94922 8.99986L1.46422 0.514862L0.0492191 1.92886L7.12122 8.99986L0.0492191 16.0709L1.46422 17.4849Z"></path>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
+            <section class="section sacraments">
+                <div class="container container_lg">
+                    <h2 class="sacraments__title section-title section-title_center">Таинства церкви</h2>
+                    <div class="swiper sacraments__slider js-sacraments-slider">
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide sacraments__item">
+
+                                <a href="" class="sacraments__item-link">
+                                    <div class="sacraments__item-image-box">
+                                        <img class="sacraments__item-image lazy" data-src="assets/img/sacraments/1.jpg" data-srcset="assets/img/sacraments/1@2x.jpg 2x" width="374" height="263" alt="">
+                                    </div>
+                                    <div class="sacraments__item-content">
+                                        <h3 class="sacraments__item-title">Таинство Причащения</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="swiper-slide sacraments__item">
+
+                                <a href="" class="sacraments__item-link">
+                                    <div class="sacraments__item-image-box">
+                                        <img class="sacraments__item-image lazy" data-src="assets/img/sacraments/2.jpg" data-srcset="assets/img/sacraments/2@2x.jpg 2x" width="374" height="263" alt="">
+                                    </div>
+                                    <div class="sacraments__item-content">
+                                        <h3 class="sacraments__item-title">Елеосвящение (соборование)</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="swiper-slide sacraments__item">
+
+                                <a href="" class="sacraments__item-link">
+                                    <div class="sacraments__item-image-box">
+                                        <img class="sacraments__item-image lazy" data-src="assets/img/sacraments/3.jpg" data-srcset="assets/img/sacraments/3@2x.jpg 2x" width="374" height="263" alt="">
+                                    </div>
+                                    <div class="sacraments__item-content">
+                                        <h3 class="sacraments__item-title">Покаяние (исповедь)</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="swiper-slide sacraments__item">
+
+                                <a href="" class="sacraments__item-link">
+                                    <div class="sacraments__item-image-box">
+                                        <img class="sacraments__item-image lazy" data-src="assets/img/sacraments/4.jpg" data-srcset="assets/img/sacraments/4@2x.jpg 2x" width="374" height="263" alt="">
+                                    </div>
+                                    <div class="sacraments__item-content">
+                                        <h3 class="sacraments__item-title">Крещение и миропомазание</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-prev sacraments__prev js-sacraments-slider-prev" slot="after">
+                            <svg class="ui-icon ui-icon-arrow">
+                                <use xlink:href="assets/img/icons.svg#arrow"></use>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next sacraments__next js-sacraments-slider-next" slot="after">
+                            <svg class="ui-icon ui-icon-arrow">
+                                <use xlink:href="assets/img/icons.svg#arrow"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
         <footer>
